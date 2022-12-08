@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".viewModel.MenuActivity">
+
+    <View
+        android:id="@+id/containerCompAlt"
+        style="@style/ContainerComponents"
+        android:layout_width="374dp"
+        android:layout_height="490dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/borderradius_inversa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDeslogar"
+        style="@style/botoesRosa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/btn_Deslogar"
+        app:layout_constraintBottom_toBottomOf="@+id/containerCompAlt"
+        app:layout_constraintEnd_toEndOf="@+id/containerCompAlt"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/containerCompAlt" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAlterar"
+        style="@style/botoesVerde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Alterar"
+        app:layout_constraintBottom_toBottomOf="@+id/containerCompAlt"
+        app:layout_constraintEnd_toEndOf="@+id/containerCompAlt"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/containerCompAlt" />
+
+    <EditText
+        android:id="@+id/edtNome_alt"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_login"
+        android:hint="@string/nome_rg"
+        android:maxLength="44"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/cinza"
+        app:layout_constraintEnd_toEndOf="@+id/containerCompAlt"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="@+id/containerCompAlt"
+        app:layout_constraintTop_toBottomOf="@id/textView2"
+        android:inputType="text"
+        android:digits="qwertyuiopasdfghjklzxcvbnm 1234567890 QWERTYUIOPASDFGHJKLZXCVBNM"/>
+
+    <com.santalu.maskara.widget.MaskEditText
+        android:id="@+id/edtCPF_alt"
+        android:layout_width="145dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_login"
+        android:hint="@string/cpf_rg"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/cinza"
+        app:layout_constraintEnd_toEndOf="@+id/containerCompAlt"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="@+id/containerCompAlt"
+        app:layout_constraintTop_toBottomOf="@id/edtNome_alt"
+        app:mask="___.___.___-__"
+        app:maskCharacter="_"
+        app:maskStyle="completable" />
+
+    <com.santalu.maskara.widget.MaskEditText
+        android:id="@+id/edtNumero_alt"
+        android:layout_width="145dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/btn_login"
+        android:hint="@string/phoneNumber_rg"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/cinza"
+        app:layout_constraintEnd_toEndOf="@+id/containerCompAlt"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="@+id/containerCompAlt"
+        app:layout_constraintTop_toBottomOf="@+id/edtNome_alt"
+        app:mask="(__) _____-____"
+        app:maskCharacter="_"
+        app:maskStyle="completable" />
+
+    <EditText
+        android:id="@+id/edtBairro_alt"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/btn_login"
+        android:hint="@string/bairro_rg"
+        android:inputType="text"
+        android:maxLength="44"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/cinza"
+        app:layout_constraintBottom_toBottomOf="@+id/containerCompAlt"
+        app:layout_constraintEnd_toEndOf="@+id/containerCompAlt"
+        app:layout_constraintStart_toStartOf="@+id/containerCompAlt"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.319"
+        android:digits="qwertyuiopasdfghjklzxcvbnm 1234567890 QWERTYUIOPASDFGHJKLZXCVBNM"/>
+
+    <EditText
+        android:id="@+id/edtRua_alt"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_login"
+        android:hint="@string/rua_rg"
+        android:inputType="text"
+        android:maxLength="44"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/cinza"
+        app:layout_constraintEnd_toEndOf="@+id/containerCompAlt"
+        app:layout_constraintStart_toStartOf="@+id/containerCompAlt"
+        app:layout_constraintTop_toBottomOf="@+id/edtBairro_alt"
+        android:digits="qwertyuiopasdfghjklzxcvbnm 1234567890 QWERTYUIOPASDFGHJKLZXCVBNM"/>
+
+    <EditText
+        android:id="@+id/edtComplemento_alt"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_login"
+        android:hint="Complemento"
+        android:inputType="text"
+        android:maxLength="20"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/cinza"
+        app:layout_constraintEnd_toEndOf="@+id/containerCompAlt"
+        app:layout_constraintStart_toStartOf="@+id/containerCompAlt"
+        app:layout_constraintTop_toBottomOf="@+id/edtRua_alt"
+        android:digits="qwertyuiopasdfghjklzxcvbnm 1234567890 QWERTYUIOPASDFGHJKLZXCVBNM"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfil de Usuário"
+        android:textColor="#000"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/containerCompAlt"
+        app:layout_constraintStart_toStartOf="@+id/containerCompAlt"
+        app:layout_constraintTop_toTopOf="@+id/containerCompAlt" />
+</androidx.constraintlayout.widget.ConstraintLayout>

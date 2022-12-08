@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@drawable/itens_inverso">
+
+
+        <ImageView
+            android:id="@+id/imgItensCar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/txtNomeCar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is Header Text"
+            android:layout_marginLeft="8dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/imgItensCar"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/txtSaborCar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@id/imgItensCar"
+            android:layout_below="@id/txtNomeCar"
+            android:text="This is Description Text"
+            android:textColor="#000"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/txtRSCAR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@id/txtSaborCar"
+            android:layout_toRightOf="@id/imgItensCar"
+            android:text="R$"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:id="@+id/txtValorCar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_below="@id/txtSaborCar"
+            android:layout_toRightOf="@id/txtRSCAR"
+            android:text="Alo alo arooo"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:gravity="center_vertical"/>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

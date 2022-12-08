@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".viewModel.fragments.CarrinhoFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgBoloTriste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bolotriste_pixel"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dp"/>
+        <ImageView
+            android:id="@+id/imgBoloFeliz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bolofeliz_pixel"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dp"
+            android:visibility="invisible"/>
+        <TextView
+            android:id="@+id/txtMsgBoloTriste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/divider"
+            android:layout_below="@id/imgBoloTriste"
+            android:text="SEM ITENS NO CARRINHO ;-;"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#9E9797" />
+
+        <TextView
+            android:id="@+id/txtMsgBoloFeliz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/divider"
+            android:layout_below="@id/imgBoloTriste"
+            android:layout_centerHorizontal="true"
+            android:text="VOCÊ REALIZOU UM PEDIDO :D"
+            android:textColor="#9E9797"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvCarrinho"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/divider" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnFinalizar"
+            style="@style/botoesGradiente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toLeftOf="@id/btnLimpar"
+            android:layout_toRightOf="@id/btnLimpar"
+            android:text="FINALIZAR PEDIDO" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLimpar"
+            style="@style/botoesGradienteContrario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="10dp"
+            android:text="Limpar" />
+
+        <TextView
+            android:id="@+id/txtRSFINAL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="R$: "
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtValorTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@id/txtRSFINAL"
+            android:gravity="center"
+            android:text="00.00"
+            android:textColor="#000"
+            android:textSize="22sp" />
+
+        <com.santalu.maskara.widget.MaskEditText
+            android:id="@+id/edtDataEntrega"
+            style="@style/edt_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/btnFinalizar"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toRightOf="@id/txtValorTotal"
+            android:ems="10"
+            android:hint="Data de Entrega dd/mm"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:mask="--/--"
+            app:maskCharacter="-"
+            app:maskStyle="completable" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            android:layout_above="@id/edtDataEntrega"/>
+
+        <TextView
+            android:id="@+id/frete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtRSFINAL"
+            android:layout_marginStart="8dp"
+            android:text="Frete: R$ 8,00" />
+
+    </RelativeLayout>
+
+</FrameLayout>

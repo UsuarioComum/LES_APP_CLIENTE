@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable-v24/background.xml" value="0.3675" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable-v24/btn_login.xml" value="0.3675" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable-v24/container_components.xml" value="0.3675" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable-v24/edt_login.xml" value="0.3675" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable-v24/ic_email.xml" value="0.3675" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3525" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable-v24/ic_password.xml" value="0.3675" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable/background_inverso.xml" value="0.3675" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable/background_sem_meio.xml" value="0.3675" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable/background_sem_meio_contrario.xml" value="0.3415" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable/background_sem_meio_inverso.xml" value="0.3415" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable/borderradius.xml" value="0.3675" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable/borderradius_inversa.xml" value="0.3675" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable/borderradiusrosa.xml" value="0.3675" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable/borderradiusverde.xml" value="0.3675" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable/btn_login_rosa.xml" value="0.3675" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable/btn_login_verde.xml" value="0.3675" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable/ic_baseline_cake_24.xml" value="0.3525" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.3525" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.3525" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.3525" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.3525" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3525" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.3525" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable/ic_tentativa_icone_background.xml" value="0.3675" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable/itens.xml" value="0.3675" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable/itens_inverso.xml" value="0.3675" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/drawable/navitemselector.xml" value="0.3675" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/font/arbutus.xml" value="0.3257802479692176" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/layout-v31/activity_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/layout/activity_menu.xml" value="0.25" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/layout/activity_novo_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/layout/activity_register.xml" value="0.3009833262077811" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/layout/fragment_carrinho.xml" value="0.3009833262077811" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/layout/fragment_carrinho_vazio.xml" value="0.3009833262077811" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/layout/fragment_item.xml" value="0.3009833262077811" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/layout/fragment_perfil.xml" value="0.3009833262077811" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/layout/fragment_produtos.xml" value="0.3009833262077811" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/layout/ic_email.xml" value="0.3009833262077811" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/layout/ic_password.xml" value="0.3009833262077811" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/layout/itens_carrinho.xml" value="0.3009833262077811" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/layout/itens_produto.xml" value="0.3009833262077811" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/menu/nav_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3675" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3675" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/mipmap-anydpi-v26/ic_tentativa_icone.xml" value="0.3675" />
+        <entry key="..\:/Ed/AndroidStudioProjects/cliente/app/src/main/res/mipmap-anydpi-v26/ic_tentativa_icone_round.xml" value="0.3675" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

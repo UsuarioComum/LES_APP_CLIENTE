@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@drawable/itens">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/imgItens"/>
+
+        <TextView
+            android:id="@+id/txtNome_itens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/imgItens"
+            android:text="@string/txtNome_itens"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/txtSabor_itens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtNome_itens"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="1dp"
+            android:layout_toRightOf="@id/imgItens"
+            android:text="@string/txtSabor_itens"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/txtValor_itens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtSabor_itens"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="53dp"
+            android:layout_marginTop="19dp"
+            android:layout_toEndOf="@+id/outro"
+            android:layout_toRightOf="@id/imgItens"
+            android:text="@string/txtValor2_itens"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/outro"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtSabor_itens"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="19dp"
+            android:layout_toRightOf="@id/imgItens"
+            android:text="@string/txtValor_itens"
+            android:textColor="#000"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

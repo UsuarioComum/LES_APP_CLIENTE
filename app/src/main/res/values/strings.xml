@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Doceria Kelly</string>
+
+    <!-- Parte do Login -->
+    <string name="email_lg">Email: </string>
+    <string name="senha_lg">Senha: </string>
+    <string name="btn_Login">ENTRAR</string>
+    <string name="btn_Register">REGISTRAR</string>
+    <string name="email_ExemploLG">Email: user@cliente.com</string>
+    <string name="senha_ExemploLG">Senha: 123456</string>
+
+    <!-- Parte do Registro (Cadastro / Rg (Register)) -->
+    <string name="nome_rg">Nome: </string>
+    <string name="sobrenome_rg">Sobrenome: </string>
+    <string name="cpf_rg">CPF</string>
+    <string name="email_rg">Email: </string>
+    <string name="phoneNumber_rg">Número: </string>
+    <string name="bairro_rg">Bairro: </string>
+    <string name="rua_rg">Rua: </string>
+    <string name="senha_rg">Senha: </string>
+    <string name="botao_cadastrar">CADASTRAR</string>
+
+    <!-- Parte do Menu -->
+    <string name="btn_Deslogar">DESLOGAR</string>
+    <string name="title_activity_novo_menu">NovoMenuActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- RecyclerView -->
+    <!-- Itens -->
+    <string name="txtNome_itens">Nome: </string>
+    <string name="txtSabor_itens">Sabor: </string>
+    <string name="txtValor_itens">R$: </string>
+    <string name="txtValor2_itens">Preço (R$): </string>
+</resources>
